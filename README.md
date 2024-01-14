@@ -25,4 +25,9 @@ The app will return the message **Registration passed successful!**
 The app will return the messages **Found!** and **Authorization completed!** if the entered data matches the data in the file
 Else the app returned the message **Login or password not found!**
 
+## Dependencies
+- Python 3.6 or more
+
+## Author
+*Artem Vtyurin* - [@vtyurin.artem@bk.ru]
 
