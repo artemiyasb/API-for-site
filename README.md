@@ -29,5 +29,5 @@ Else the app returned the message **Login or password not found!**
 - Python 3.6 or more
 
 ## Author
-*Artem Vtyurin* - [@vtyurin.artem@bk.ru]
+*Artem Vtyurin* - [vtyurin.artem@bk.ru]
 
