@@ -5,13 +5,6 @@ def read_file():
             for word in line.split():
 
 
-
-
-
-
-
-
-
 def write_to_file(Login, Password):
     with open('a.txt', 'w') as f:
         f.write(f'{Login}')
@@ -24,22 +17,16 @@ def user_authorization():
     print(read_file())
 
 
-
-
-
-
-
-
-
 def user_registration():
     Login = str(input('Enter your Login'))
     Password = str(input('Enter your password'))
     if len(Login) >= 3 and len(Login) <= 20 and len(Password) >= 4 and len(Password) <= 32:
         print(write_to_file(Login,Password))
         print('Registration passed successful!')
-
     else:
         print('Registration error!')
+
+
 def user_start():
     user_choose = int(input('Type 1 for registration or 2 for authorization'))
     if user_choose == 1:
